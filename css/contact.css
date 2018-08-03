@@ -45,3 +45,7 @@ h1 {
 p {
   margin-left: 0px;
 }
+
+.contact > p > img.icon {
+  width: 18px;
+}
