@@ -35,10 +35,10 @@ li {
 }
 
 /* header */
-img.header {
+/* img.header {
   width: 15%;
   padding-bottom: 43px;
-}
+} */
 
 /* nav bar */
 
@@ -75,6 +75,7 @@ h2 {
   color: white;
   margin-bottom: 20px;
   text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 h4 {
@@ -156,4 +157,14 @@ h5 {
 
 h5 > a {
   font-size: 14px;
+}
+
+/* header image link */
+a.logo > img {
+  width: 15%;
+  padding-bottom: 43px;
+}
+
+a.logo > img:hover {
+  opacity: 100;
 }
