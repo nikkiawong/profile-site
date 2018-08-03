@@ -1,4 +1,12 @@
 /* contact page only css */
+h4 {
+  float:left;
+  margin-top: 45%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+  margin-right: 25%;
+}
+
 li#work {
   border-left: none;
   font-weight: normal;
@@ -36,8 +44,4 @@ h1 {
 
 p {
   margin-left: 0px;
-}
-
-h4 {
-  margin-top: 50%;
 }
