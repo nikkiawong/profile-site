@@ -1,4 +1,8 @@
 /* full body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container {
   margin-top: 50px;
   margin-left: 100px;
@@ -8,12 +12,32 @@
 
 p {
   text-align: center;
+  font-size: 14px;
+}
+
+a {
+  color: #f1613d;
+  font-size: 16px;
+}
+
+a:hover {
+  background-color: #f1613d;
+  color: white;
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li {
+  font-size: 14px;
 }
 
 /* header */
 img.header {
   width: 15%;
-  padding-bottom: 55px;
+  padding-bottom: 45px;
 }
 
 /* nav bar */
@@ -25,19 +49,30 @@ img.header {
 }
 
 .nav > ul {
-  margin-top: 50px;
+  margin-top: 55px;
   list-style-type: none;
 }
 
 .nav > ul > li {
   display: inline;
   padding: 10px;
+  border-left: 1px solid #f1613d;
+}
+
+li#work {
+  border: none;
 }
 
 /* sidebar */
 
 h2 {
   text-align: center;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .italic {
@@ -72,7 +107,6 @@ h2 {
 .col-md-4 {
   background-color: #f7f7f7;
   border: 8px solid white;
-  border-radius: 10px;
   box-sizing: border-box;
   padding: 15px;
 }
@@ -85,6 +119,10 @@ a > img {
 h3 {
   text-align: center;
   padding-top: 10px;
+}
+
+h3 > a {
+  font-size: 22px;
 }
 
 a > img:hover {
