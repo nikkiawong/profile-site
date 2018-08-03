@@ -8,13 +8,19 @@
 /* header */
 img.header {
   width: 15%;
-  padding-bottom: 10px;
+  padding-bottom: 55px;
 }
 
 /* nav bar */
 
+.nav {
+  float: right;
+  width: 40%;
+  margin-right: 42%;
+}
+
 .nav > ul {
-  margin-top: 10px;
+  margin-top: 50px;
   list-style-type: none;
 }
 
@@ -25,6 +31,14 @@ img.header {
 
 /* sidebar */
 
+h2 {
+  text-align: center;
+}
+
+.sidebar > p {
+  text-align: center;
+}
+
 .italic {
   font-style: italic;
 }
@@ -32,11 +46,19 @@ img.header {
 .sidebar {
   float: left;
   position: absolute;
-  width: 15%;
+  width: 13%;
   margin-bottom: 100px;
 }
 
 .sidebar > img {
   width:80%;
   margin: 10%;
+}
+
+/* projects */
+
+.work {
+  float:left;
+  margin-top: 15px;
+  margin-left: 23%
 }
