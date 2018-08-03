@@ -23,3 +23,9 @@ This website displays my various coding projects up until now currently on my Gi
 * CSS
 * Git
 * Bootstrap
+
+## Link to Github Pages
+https://nikkiawong.github.io/profile-site/
+
+##Legal
+Copyright (c) 2018 Nikki Wong
