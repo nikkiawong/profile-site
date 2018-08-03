@@ -10,30 +10,37 @@ li#about {
   font-size: 16px;
 }
 
-.contact {
+.about {
   float:left;
   position: absolute;
   margin-top: 100px;
-  margin-left: 275px;
+  margin-left: 270px;
+  margin-bottom: 100px;
 }
 
-.contact > p {
+p {
   text-align: left;
 }
 
-.contact > p > a {
-  font-size: 14px;
-}
-
 h1 {
+
   font-size: 40px;
   font-weight: bold;
   color: #f1613d;
   margin-top: 30px;
-  margin-left: -325px;
+  margin-left: -90%;
   padding-bottom: 20px;
 }
 
-p {
-  margin-left: 0px;
+.col-md-9 > p {
+  width: 60%;
+}
+
+.col-md-9 > ul {
+  width: 60%;
+}
+
+img.profile {
+  width: 100%;
+  background-color: #000;
 }
