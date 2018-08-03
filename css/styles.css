@@ -182,3 +182,10 @@ a.logo > img {
 a.logo > img:hover {
   opacity: 100;
 }
+
+/* contact page only css */
+.contact {
+  float:left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
