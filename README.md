@@ -10,7 +10,12 @@ This website displays my various coding projects up until now currently on my Gi
 
 ## Setup
 
-* a
+* Clone this repository
+* Open a simple HTTP server in the top level of the cloned directory. For a mac, run the following command in your terminal:
+* git add index.html
+* git commit -m "description"
+* git remote add [nickname] URL
+* git push [nickname] master
 
 ## Technologies Used
 
