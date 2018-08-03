@@ -75,7 +75,7 @@ li#work {
 
 /* sidebar */
 
-h2 {
+h1 {
   text-align: center;
   font-size: 25px;
   font-family: 'Playfair Display', serif;
@@ -85,7 +85,7 @@ h2 {
   text-decoration-style: dotted;
 }
 
-h4 {
+h3 {
   font-size: 16px;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
@@ -143,12 +143,12 @@ a > img {
   border-radius: 10px;
 }
 
-h3 {
+h2 {
   text-align: center;
   padding-top: 10px;
 }
 
-h3 > a {
+h2 > a {
   font-size: 22px;
   font-family: 'Playfair Display', serif;
 }
@@ -159,7 +159,7 @@ a > img:hover {
 }
 
 /* footer */
-h5 {
+h4 {
   font-weight: normal;
   text-align: center;
   font-size: 14px;
@@ -167,7 +167,7 @@ h5 {
   padding-top: 100px;;
 }
 
-h5 > a {
+h4 > em > strong > a {
   font-size: 14px;
 }
 
